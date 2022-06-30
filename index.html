@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,24 +15,38 @@
   </style>
 </head>
 <body>
-  <head>
-    <banner class="container">
-      <img src="./images/image-header-mobile.jpg" alt="">
-    </banner>
-  </head>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Mohammed Ahsanul Kabir</a>.
+  <div class="card">
+    <div class="card-image">
+      
+    </div>
+  
+    <div class="card-body">
+      <div>
+        <section class="title-description">
+          <div class="card-title">
+            <p>Get <span>insights</span> that help your business grow.</p>
+          </div>
+          <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</p>
+        </section>
+        <section class="stat-section">
+          <p class="stat-data">10k+</p>
+          <p class="stat-data">314</p>
+          <p class="stat-data">12M+</p>
+          <p class="stat-name">companies</p>
+          <p class="stat-name">templates</p>
+          <p class="stat-name">queries</p>
+        </section>
+      </div>
+    </div>
   </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mohammed Ahsanul Kabir</a>.
+    </div>
+  </footer>
 </body>
 </html>
